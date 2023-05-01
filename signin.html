@@ -22,16 +22,19 @@
     </header>
 
     <div class="container">
-        <form action="index.html">
-            <label>Email</label>
-            <input type="text" name="email" pattern="^[a-zA-Z0-9]+@csu.fullerton\.edu$" required>
+        <form  class="sign-in" action="index.html">
+            <label class="email-password-labels">Email</label>
             <br>
-            <label>Password (8 characters minimum)</label>
-            <input type="text" name="password" placeholder="Password" minlength="8" required>
-            <input type="submit" name="" id="" value="submit">
+            <input type="text" name="email" placeholder="Email" pattern="^[a-zA-Z0-9]+@csu.fullerton\.edu$" required oninvalid="this.setCustomValidity('Please enter a valid CSUF email address')">
+            <br><br>
+            <label class="email-password-labels">Password (8 characters minimum)</label>
+            <br>
+            <input  type="password" placeholder="Password" minlength="8" required>
+            <br><br><br>
+            <input type="submit" name="" id="e-p-submit" value="Submit">
         </form>
-
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
         <footer>

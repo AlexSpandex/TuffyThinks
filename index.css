@@ -441,3 +441,34 @@ footer{
 .comments-container{
     margin-top: 50px;
 }
+
+/*Sign In*/
+
+.sign-in{
+    margin: auto;
+    width: 50%;
+}
+
+.email-password-labels{
+    font-size: 48px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.sign-in input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor:  auto;
+    width: 100%;
+}
+
+.sign-in input:hover{
+    border: solid 4px #000000;
+}
+
+#e-p-submit{
+cursor: pointer;
+background-color: #BC5D2E;
+color: #fff;
+}
