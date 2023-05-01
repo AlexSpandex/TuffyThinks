@@ -17,39 +17,19 @@
 <body>
     <header>
         <div class="navbar">
-            <nav class="navigation hide" id="navigation">
-                <ul class="nav-list">
-                    <span class="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
-                    <li class="nav-item">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="posts.html">Course</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="detail.html">Q+A</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-            <div class="brand">TuffyThinks</div>
-        </div>
-        <!--Search Box-->
-        <div class="search-box">
-            <div>
-                <select name="" id="">
-                    <option value="everything">Everything</option>
-                    <option value="titles">Titles</option>
-                    <option value="descriptions">Descriptions</option>
-                </select>
-                <input type="text" name="q" id="" placeholder="search ...">
-                <button><i class="fa fa-search"></i></button>
-            </div>
+            <a href="#" class="bar-icon" id="iconBar"><div class="brand">TuffyThinks</div></a>
         </div>
     </header>
 
     <div class="container">
-        
+        <form action="index.html">
+            <label>Email</label>
+            <input type="text" name="email" pattern="^[a-zA-Z0-9]+@csu.fullerton\.edu$" required>
+            <br>
+            <label>Password (8 characters minimum)</label>
+            <input type="text" name="password" placeholder="Password" minlength="8" required>
+            <input type="submit" name="" id="" value="submit">
+        </form>
 
     </div>
 
