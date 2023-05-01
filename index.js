@@ -20,7 +20,17 @@ function showComment(){
     commentArea.setAttribute("style","display:block;");
 }
 
+function hideComment(){
+    var commentArea = document.getElementById("comment-area");
+    commentArea.setAttribute("style","display:none;");
+}
+
 function showReply(){
     var replyArea = document.getElementById("reply-area");
     replyArea.setAttribute("style","display:block;");
+}
+
+function hideReply(){
+    var replyArea = document.getElementById("reply-area");
+    replyArea.setAttribute("style","display:none;");
 }

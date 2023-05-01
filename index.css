@@ -435,7 +435,7 @@ footer{
 }
 
 .comment-area input:hover{
-    border: solid 10px #000000;
+    border: solid 1px #000000;
 }
 
 .comments-container{
