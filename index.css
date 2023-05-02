@@ -130,8 +130,8 @@ header{
 
 .navigation{
     background-color: #BC5D2E;
-    padding: 10px;
-    width: 65%;
+    padding: 20px;
+    width: 100%;
     display: inline-block;
     border-radius: 5px;
     max-height: 80px;
@@ -141,7 +141,9 @@ header{
 .nav-list{
     list-style-type: none;
     overflow: hidden;
+    margin-top: -12px;
 }
+
 
 .nav-item a{
     float: left;
@@ -151,6 +153,7 @@ header{
     font-size: 20px;
     padding: 10px;
     color: #fff;
+    
 }
 
 .nav-item a:hover{
@@ -177,9 +180,9 @@ header{
 }
 
 
-.brand{
+.brand a{
+    color: #fff;
     font-size: 60px;
-    display: inline-block;
     font-family: 'Orbitron', sans-serif;
 }
 
