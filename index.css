@@ -446,6 +446,11 @@ footer{
 }
 
 /*Sign In*/
+#email-password-container{
+    border: solid 1px #BC5D2E;
+    margin-top: 200px;
+    padding: 40px;
+}
 
 .sign-in{
     margin: auto;
