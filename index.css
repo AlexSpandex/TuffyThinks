@@ -211,7 +211,7 @@ header{
 }
 
 /*search box*/
-.search-box{
+.course-description-content{
     border: solid 1px #BC5D2E;
     margin-top: 20px;
     padding: 40px;
@@ -220,29 +220,70 @@ header{
     box-shadow: 1px 2px 3px #BC5D2E;
 }
 
-.search-box select{
+.course-description-content select{
     padding: 10px;
 }
 
-.search-box input{
+.course-description-content input{
     padding: 10px;
 }
-.search-box button{
+.course-description-content button{
     padding: 10px;
     background-color: #fff;
     color: #000000;
 }
 
-.search-box button:hover{
+.course-description-content button:hover{
     background-color: #000000;
     color: #fff;
     box-shadow: 1px 2px 3px #fff;
 }
 
+.create-label{
+    font-size: 32px;
+}
+
+#title-input{
+    width: 100%;
+    float: right;
+    padding: 10px;
+
+    border: none;
+    cursor: auto;
+}
+
+#course-input{
+    width: 100%;
+    float: right;
+    padding: 10px;
+    border: none;
+    cursor: auto;
+}
+#content-input {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+#c-d-c-submit{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #BC5D2E;
+    cursor: pointer;
+    color: white;
+}
+
+#c-d-c-submit input:hover{
+    background-color: #e7d5d0;
+    cursor: pointer;
+}
 /* search box for mobile */
 
 @media screen and (max-width: 460px){
-    .search-box input, .search-box button, .search-box select{
+    .course-description-content input, .course-description-content button, .course-description-content select{
         min-width: 300px;
         margin-top: 5px;
     }

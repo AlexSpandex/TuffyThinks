@@ -36,17 +36,22 @@
             </nav>
         </div>
         
-        <!--Search Box-->
-        <div class="search-box">
-            <div>
-                <select name="" id="">
-                    <option value="everything">Everything</option>
-                    <option value="titles">Titles</option>
-                    <option value="descriptions">Descriptions</option>
-                </select>
-                <input type="text" name="q" id="" placeholder="search ...">
-                <button><i class="fa fa-search"></i></button>
-            </div>
+        <!--Course, Description Title, and Description Content-->
+        <div class="course-description-content">
+            <form class="title" action="#">
+                <label class="create-label">Course</label>
+                <br>
+                <input type="text" id="course-input" placeholder="Type your course here ...." required>
+                <br><br><br>
+                <label class="create-label">Description Title</label>
+                <br>
+                <input type="text" id="title-input"  placeholder="Title of your Description here ...." required>
+                <br><br><br>
+                <label class="create-label">Description Content</label>
+                <textarea name="comment" id="content-input" placeholder="description here ...."  required ></textarea>
+                <br>
+                <input type="submit" id="c-d-c-submit" name="" value="Submit">
+            </form>
         </div>
     </header>
 
